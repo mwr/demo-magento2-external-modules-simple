@@ -1,0 +1,18 @@
+.idea
+.DS_Store
+
+build/output
+
+# Magento
+/magento/*
+/magento/app/etc/*
+!/magento/app/etc/config.php
+/magento/app/code/Magento
+/magento/app/design/*/Magento
+/magento/app/i18n/magento/
+/magento/app/*.*
+!/magento/composer.*
+
+# docker
+.env
+var
